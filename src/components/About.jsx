@@ -7,7 +7,7 @@ const About = () => {
         <div className="flex flex-col sm:flex-row">
             <div className='relative w-full'>
                 <div className='overflow-hidden h-[250px] w-[350px] mt-20 sm:mt-0 sm:min-w-[300px] sm:min-h-[300px] rounded-[20px] flex justify-center items-center shadow-lg '>    
-                    <img src="src/assets/me.jpg" alt="" className='bg-center h-auto w-full hover:scale-125 delay-0 duration-300 hover:cursor-pointer'/>
+                    <img src="/me.jpg" alt="" className='bg-center h-auto w-full hover:scale-125 delay-0 duration-300 hover:cursor-pointer'/>
                 </div>
                 <div className="absolute right-[-4rem] bottom-[-5rem] hidden md:flex">
                     <RotateComp />

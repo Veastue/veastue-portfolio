@@ -8,7 +8,7 @@ function Hero() {
             <div className='h-screen max-w-5xl mx-auto flex flex-col justify-center items-center gap-[30px] '>
             <div className='flex lg:flex-row-reverse flex-col items-center gap-10 px-4 lg:flex-nowrap mt-20 lg:mt-[-150px]'>
                 <div className='overflow-hidden h-[250px] w-[250px] mt-24 lg:mt-0 lg:min-w-[300px] lg:min-h-[300px] rounded-full flex justify-center items-center border-[3px] border-black animate-[wiggle_4s_ease-in-out_infinite] transform transistion'>
-                    <img src="src/assets/heropic.jpg" alt="pic" className='w-full h-full object-cover hover:scale-125 delay-0 duration-300' />
+                    <img src="/heropic.jpg" alt="pic" className='w-full h-full object-cover hover:scale-125 delay-0 duration-300' />
                 </div>
                 <div className='flex flex-col gap-10 justify-center items-center text-center lg:text-start lg:items-start'>
                     <h1 className='flex font-bold text-5xl sm:text-7xl '>
