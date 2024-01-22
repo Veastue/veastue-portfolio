@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif, Consolas;
+    transition: all 0.7s ease-in-out 0.4s; 
+}
+
+.font-mulish {
+    font-family: 'Mulish';
+}
+
+.font-bungee {
+    font-family: 'Bungee';
+}
+
+.circle{
+    font-family: consolas;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: anim 10s linear infinite;
+}
+
+@keyframes anim {
+    0%{
+        transform: rotate(0deg);
+    } 100%{
+        transform: rotate(360deg);
+    }
+}
+
+.text span {
+    position: absolute;
+    left: 50%;
+    font-size: 1.2em;
+    transform-origin: 0 100px;
+}
+
+
+/* ///////// */
+
+@keyframes bmorp {
+    0%{
+        border-radius: 59% 25% 25% 45% / 25% 25% 25% 39%;
+    } 100%{
+        border-radius: 18% 42% 19% 36% / 25% 25% 46% 39%;
+    }
+}
