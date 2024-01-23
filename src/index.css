@@ -13,6 +13,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif, Consolas;
     transition: all 0.7s ease-in-out 0.4s; 
+    scroll-behavior: smooth;
 }
 
 .font-mulish {

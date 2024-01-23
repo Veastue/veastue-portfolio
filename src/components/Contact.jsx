@@ -3,44 +3,34 @@ import { TbMap2, TbMail } from "react-icons/tb";
 
 function Contact() {
   return (
-    <section className='bg-white w-full mx-auto flex justify-center items-center'>
-        <div className='py-10 flex flex-col md:justify-between gap-10 min-w-7xl px-12'>
-        <div className='flex flex-col  text-center xl:text-start justify-start py-7 md:py-0 gap-3'>
-                    <h3 className='font-black text-2xl uppercase'>Contact me!</h3>
-                    <p className='text-xl'>Don't be shy! Hit me up! 📣</p>
-                </div>
-            <div className='flex flex-col xl:flex-row gap-10'>
-                
-                <div className='flex flex-col md:flex-row gap-5 px-10 text-center items-center justify-center md:justify-start md:text-start md:items-start'>
-                    <div className='flex justify-center items-center w-16 h-16 shadow-2xl rounded-full'>
-                        <TbMap2 className='text-4xl text-blue-500 '/>
-                    </div>
-                    <div className='flex flex-col text-center items-center justify-center md:justify-start md:text-start md:items-start'>
-                        <h3 className='font-black text-xl'>Location</h3>
-                        <p className='text-base text-slate-500 min-w-[150px]'>Cavite, Philippines</p>
-                    </div>
-                </div>
-
-                <div className='flex flex-col md:flex-row gap-5 px-10 text-center items-center justify-center md:justify-start md:text-start md:items-start'>
-                    <div className='flex justify-center items-center w-16 h-16 shadow-2xl rounded-full'>
-                        <TbMail className='text-4xl text-blue-500 '/>
-                        
-                    </div>
-                    <div className='flex flex-col text-center items-center justify-center md:justify-start md:text-start md:items-start'>
-                        <h3 className='font-black text-xl'>Email</h3>
-                        <p className='text-base text-slate-500 hover:text-blue-500 transition-none hover:transition-none'>cantigaonduty@gmail.com</p>
-                    </div>
+    <section id='contact' className='bg-white max-w-4xl mx-auto flex justify-center items-center flex-col py-24'>
+        <div className='flex flex-col items-center sm:items-start gap-2 px-5 w-full'>
+            <h1 className='text-2xl font-black text-center sm:text-start'>Contact me!</h1>
+            <p className='text-base text-gray-500 text-center lg:text-start font-mulish font-semibold max-w-[480px] lg:w-full'>Dont't be shy! hit me up!  📣</p>
+        </div>
+        <div className='flex flex-col sm:flex-row gap-10 my-10  w-full px-10'>
+            <div className='flex flex-col sm:flex-row items-center gap-3'>
+                <TbMap2 className='w-14 h-14 p-3 shadow-md rounded-full text-blue-600'/>
+                <div className='flex flex-col items-center sm:items-start'>
+                    <h4>Location</h4>
+                    <p className='text-sm'>Cavite, Philippines 📍</p>
                 </div>
             </div>
-            <form action="submit" className='flex flex-col gap-3 w-full items-center justify-center'>
-                <input type="text" placeholder='Fullname...' className='border-2 rounded-lg p-2 min-w-[400px] '/>
-                <input type="email" placeholder='Email...' className='border-2 rounded-lg p-2 min-w-[400px] '/>
-                <textarea name="" id="" cols="40" rows="3" placeholder='Message....' className='border-2 rounded-lg p-2 min-w-[400px] '/>
-                <button type='submit' className='shadow-md px-6 py-2 rounded-lg hover:text-white hover:bg-black duration-200 '>
-                    submit
-                </button>
-            </form>
+            <div className='flex flex-col sm:flex-row items-center gap-3'>
+                <TbMail className='w-14 h-14 p-3 shadow-md rounded-full text-blue-600'/>
+                <div className='flex flex-col items-center sm:items-start'>
+                    <h4>Email</h4>
+                    <a href="mailto:your.email@example.com"><p className='text-sm hover:text-blue-600 delay-0 duration-200'>cantigaonduty@gmail.com</p></a>
+                    
+                </div>
+            </div>
         </div>
+        <form action="" className='flex flex-col items-center w-full px-4 gap-2'>
+            <input type="text" placeholder='Name...' className='border rounded-lg p-3 w-full lg:max-w-4xl'/>
+            <input type="email" placeholder='Email...' className='border rounded-lg p-3 w-full lg:max-w-4xl'/>
+            <textarea name="message" placeholder='Message...' className='border rounded-lg p-3 w-full lg:max-w-4xl min-h-40'></textarea>
+            <button type='button' className='px-4 py-2 border rounded-md bg-gray-200 hover:text-white hover:bg-black delay-0 duration-150 w-full sm:w-auto'>Submit</button>
+        </form>
     </section>
   )
 }

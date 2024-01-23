@@ -9,8 +9,8 @@ const Footer = () => {
                     &copy; {new Date().getFullYear()} Veastue. All rights reserved.
                 </p>
                 <div className='flex items-center text-center gap-6'>
-                    <TbBrandLinkedin className='text-4xl text-white cursor-pointer hover:scale-125 '/>
-                    <TbBrandGithub className='text-4xl text-white cursor-pointer hover:scale-125'/>
+                    <TbBrandLinkedin className='text-4xl text-white cursor-pointer hover:scale-125 delay-0 duration-200'/>
+                    <TbBrandGithub className='text-4xl text-white cursor-pointer hover:scale-125 delay-0 duration-200'/>
                 </div>
             </div>
         </footer>
