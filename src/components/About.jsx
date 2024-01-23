@@ -18,7 +18,7 @@ const About = () => {
             <h3 className="uppercase text-blue-600 font-extrabold ">About me</h3>
             <h1 className='text-2xl font-black text-center lg:text-start max-w-[300px] lg:w-full'>Front-end Developer from the Cavite, Philippines 📍</h1>
             <p className='text-base text-gray-500 text-center lg:text-start font-mulish font-semibold max-w-[480px] lg:w-full'>Hey, my name is Bart, and I'm a Frontend Developer. My passion is to create and develop a clean UI/UX for my users.</p>
-            <p className='text-base text-gray-500 text-center lg:text-start font-mulish font-semibold max-w-[480px] lg:w-full'>My main stack currently is React.js in combination with Tailwind CSS. I can also do flutter App using Dart.</p>
+            <p className='text-base text-gray-500 text-center lg:text-start font-mulish font-semibold max-w-[480px] lg:w-full'>My main stack currently is React.js in combination with Tailwind CSS. I can also do flutter App using Dart..</p>
         </div>
     </section>
   )
