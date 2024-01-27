@@ -12,7 +12,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif, Consolas;
-    transition: all 0.7s ease-in-out 0.4s; 
+    transition: all 0.5s ease-in-out 0.3s; 
     scroll-behavior: smooth;
 }
 
