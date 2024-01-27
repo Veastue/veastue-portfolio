@@ -49,7 +49,7 @@ function Contact() {
             <input onChange={onChange} id='uname' type="text" placeholder='Name...' className='border rounded-lg p-3 w-full lg:max-w-4xl'/>
             <input onChange={onChange} id="email" placeholder='Email...' className='border rounded-lg p-3 w-full lg:max-w-4xl'/>
             <textarea onChange={onChange} id='message' name="message" placeholder='Message...' className='border rounded-lg p-3 w-full lg:max-w-4xl min-h-40'></textarea>
-            <a href={`mailto:${emailc}?subject=Regarding... ${''}&body=${message}`} className='px-4 py-2 border rounded-md bg-gray-200 hover:text-white hover:bg-black delay-0 duration-150 w-full sm:w-auto'>Submit</a>
+            <a href={`mailto:${emailc}?subject=Regarding... ${''}&body=${message}`} className='px-4 py-2 border rounded-md bg-gray-200 hover:text-white hover:bg-black delay-0 duration-150 w-full text-center sm:w-auto'>Submit</a>
         </form>
     </section>
   )
