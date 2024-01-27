@@ -6,7 +6,7 @@ function RotateComp() {
         if (text) {
           text.innerHTML = text.innerText
             .split('')
-            .map((char, i) => `<span style="transform: rotate(${i * 8.3}deg)">${char}</span>`)
+            .map((char, i) => `<span style="transform: rotate(${i * 7.3}deg)">${char}</span>`)
             .join('');
         }
       }, []);
@@ -17,7 +17,7 @@ function RotateComp() {
         <div>
           <div className='circle bg-white'>
             <div className='text '>
-                <p>Veastue - Web Developer</p>
+                <p>Veastue.Dev - Web Developer</p>
             </div>
             <div className='text-7xl'>👨🏾‍💻</div>
           </div>

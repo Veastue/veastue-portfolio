@@ -13,14 +13,14 @@ function Contact() {
                 <TbMap2 className='w-14 h-14 p-3 shadow-md rounded-full text-blue-600'/>
                 <div className='flex flex-col items-center sm:items-start'>
                     <h4>Location</h4>
-                    <p className='text-sm'>Cavite, Philippines 📍</p>
+                    <p className='text-sm text-gray-500 '>Cavite, Philippines 📍</p>
                 </div>
             </div>
             <div className='flex flex-col sm:flex-row items-center gap-3'>
                 <TbMail className='w-14 h-14 p-3 shadow-md rounded-full text-blue-600'/>
                 <div className='flex flex-col items-center sm:items-start'>
                     <h4>Email</h4>
-                    <a href="mailto:your.email@example.com"><p className='text-sm hover:text-blue-600 delay-0 duration-200'>cantigaonduty@gmail.com</p></a>
+                    <a href="mailto:your.email@example.com"><p className='text-sm hover:text-blue-600 delay-0 duration-200 text-gray-500 '>cantigaonduty@gmail.com</p></a>
                     
                 </div>
             </div>
