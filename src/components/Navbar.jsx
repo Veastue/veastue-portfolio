@@ -31,15 +31,15 @@ const Navbar = () => {
                         </ul>
                         <div className="sm:hidden relative z-50">
                             <TbMenuDeep onClick={OpenSidebar} className='w-10 h-10 ml-10 cursor-pointer transition-none hover:text-sky-700 delay-0 duration-0'/>
-                            <div className={`fixed top-0 left-0 h-dvh w-full z-10 backdrop-blur bg-white bg-opacity-70 shadow-md transform transition-transform duration-300 delay-200 ${isOpen ? 'translate-x-0' : '-translate-x-[1000px]'}`}>
+                            <div className={`fixed top-0 left-0 h-dvh w-full z-10  bg-white  shadow-md transform transition-transform duration-300 delay-200 ${isOpen ? 'translate-x-0' : '-translate-x-[1000px]'}`}>
                                 <div className='absolute top-5 right-2 z-20 cursor-pointer '>
                                     <TbX onClick={OpenSidebar}  className='w-10 h-10 hover:text-sky-700 transition-none delay-0 duration-0'/>
                                 </div>
                                 <ul className='backdrop-blur fixed top-0 left-0 h-full w-screen z-10 shadow-md flex flex-col items-center justify-center gap-10'>
-                                    <li className='text-2xl cursor-pointer text-center'><a href="#hero">Home</a></li>
-                                    <li className='text-2xl cursor-pointer'><a href="#about">About</a></li>
-                                    <li className='text-2xl cursor-pointer'><a href="#project">Projects</a></li>
-                                    <li className='text-2xl cursor-pointer'><a href="#contact">Contact</a></li>
+                                    <li className='text-2xl cursor-pointer hover:underline' onClick={OpenSidebar}><a href="#hero">Home</a></li>
+                                    <li className='text-2xl cursor-pointer hover:underline' onClick={OpenSidebar}><a href="#about">About</a></li>
+                                    <li className='text-2xl cursor-pointer hover:underline' onClick={OpenSidebar}><a href="#project">Projects</a></li>
+                                    <li className='text-2xl cursor-pointer hover:underline' onClick={OpenSidebar}><a href="#contact">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
