@@ -4,18 +4,18 @@ const PortfolioCard = ({title, description, imgSrc, techStack, sourceCode, liveD
   return (
     <div className='border rounded-xl overflow-hidden bg-white shadow-md'>
       <div className='overflow-hidden flex items-center justify-centerc cursor-pointer'>
-        <img src={imgSrc} alt="portfolio image" className='object-cover w-full h-full hover:scale-110 transition duration-300 delay-200'/>
+        <img src={imgSrc} alt="portfolio image" className='object-cover w-full h-[300px] hover:scale-110 transition duration-300 delay-200'/>
       </div>
       <hr />
       <div className="min-h-16 p-3 line-clamp-3 text-sm">
         {description}
       </div>
       <hr />
-      <div className='flex flex-row flex-wrap items-center gap-2 px-3 py-2'>
+      <div className='flex flex-row flex-wrap items-center gap-2 px-3 py-2 truncate'>
         {techStack.map((stack)=>(
           <div 
             key={stack}
-            className="text-center px-2 py-1 rounded-md w-auto text-xs bg-black text-white">
+            className="text-center px-2 py-1 rounded-md w-auto text-xs border-black border uppercase">
             {stack}
           </div>
         ))}

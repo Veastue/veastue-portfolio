@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { TbMenuDeep, TbX  } from "react-icons/tb";
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -12,7 +11,7 @@ const Navbar = () => {
     console.log(isOpen)
     
   return (
-    <nav className='fixed w-full shadow-md z-10 backdrop-blur'>
+    <nav className='fixed w-full shadow-md z-10 backdrop-blur-sm'>
         <div className='flex max-w-7xl mx-auto px-2 sm:px-6 lg:px-8'>
             <div className="flex relative h-[80px] items-center w-full justify-between ">
                 {/* container for logo */}
@@ -24,10 +23,10 @@ const Navbar = () => {
                     {/* navigation links */}
                     <div className="flex justify-between items-center ">
                         <ul className='gap-4 items-center mx-6 hidden sm:flex'>
-                            <li className='hover:bg-black hover:text-white rounded-full px-3 py-1 font-semibold cursor-pointer delay-0 duration-200'><a href="#hero" className='transition-none'>Home</a></li>
-                            <li className='hover:bg-black hover:text-white rounded-full px-3 py-1 font-semibold cursor-pointer delay-0 duration-200'><a href="#about" className='transition-none'>About</a></li>
-                            <li className='hover:bg-black hover:text-white rounded-full px-3 py-1 font-semibold cursor-pointer delay-0 duration-200'><a href="#project" className='transition-none'>Projects</a></li>
-                            <li className='hover:bg-black hover:text-white rounded-full px-3 py-1 font-semibold cursor-pointer delay-0 duration-200'><a href="#contact" className='transition-none'>Contact</a></li>
+                            <li className='hover:bg-black hover:text-white rounded-lg px-3 py-1 font-semibold cursor-pointer delay-0 duration-200'><a href="#hero" className='transition-none'>Home</a></li>
+                            <li className='hover:bg-black hover:text-white rounded-lg px-3 py-1 font-semibold cursor-pointer delay-0 duration-200'><a href="#about" className='transition-none'>About</a></li>
+                            <li className='hover:bg-black hover:text-white rounded-lg px-3 py-1 font-semibold cursor-pointer delay-0 duration-200'><a href="#project" className='transition-none'>Projects</a></li>
+                            <li className='hover:bg-black hover:text-white rounded-lg px-3 py-1 font-semibold cursor-pointer delay-0 duration-200'><a href="#contact" className='transition-none'>Contact</a></li>
                         </ul>
                         <div className="sm:hidden relative z-50">
                             <TbMenuDeep onClick={OpenSidebar} className='w-10 h-10 ml-10 cursor-pointer transition-none hover:text-sky-700 delay-0 duration-0'/>

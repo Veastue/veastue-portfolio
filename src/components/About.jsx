@@ -3,11 +3,11 @@ import RotateComp from './RotateComp'
 
 const About = () => {
   return (
-    <section id='about' className='min-h-96 max-w-4xl mx-auto flex flex-col justify-center items-center gap-[80px] lg:flex-row lg:pt-20 py-32 '>
-        <div className="flex flex-col sm:flex-row">
+    <section id='about' className=' max-w-4xl mx-auto flex flex-col justify-center items-center gap-[80px] lg:flex-row py-32'>
+        <div className="flex flex-col sm:flex-row mx-2">
             <div className='relative w-full'>
                 <div className='overflow-hidden max-h-[250px] max-w-[350px] sm:min-w-[400px] sm:max-h-[300px] rounded-[20px] flex justify-center items-center shadow-lg '>    
-                    <img src="/me.jpg" alt="" className='bg-center h-auto max-w-full hover:scale-125 delay-0 duration-300 hover:cursor-pointer'/>
+                    <img src="/me.jpg" alt="" className='bg-center h-auto max-w-full hover:scale-110 delay-0 duration-300 hover:cursor-pointer'/>
                 </div>
                 <div className="absolute right-[-4rem] bottom-[-5rem] hidden md:flex">
                     <RotateComp />
