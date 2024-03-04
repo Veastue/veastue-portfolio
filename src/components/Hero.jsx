@@ -5,10 +5,10 @@ function Hero() {
 
     return (
         <section id='hero' className="bg-gray-100 max-w-full h-fit relative ">
-            <div className='min-h-screen h-fit max-w-5xl mx-auto flex flex-col justify-center items-center gap-[30px] '>
+            <div className='min-h-screen h-fit max-w-7xl mx-auto flex flex-col justify-center items-center gap-[30px] '>
             <div className='flex lg:flex-row-reverse flex-col items-center gap-10 px-4 lg:flex-nowrap mt-10'>
-                <div className='overflow-hidden max-h-[250px] max-w-[250px] mt-20 lg:mt-0 lg:min-w-[400px] lg:min-h-[400px] rounded-full flex justify-center items-center border-[3px] border-black animate-[wiggle_4s_ease-in-out_infinite] transform transistion'>
-                    <img src="/heropic.jpg" alt="pic" className='w-full h-[400px] object-cover hover:scale-105 delay-0 duration-300' />
+                <div className='overflow-hidden max-h-[250px] max-w-[250px] mt-20 lg:mt-0 xl:min-w-[550px] xl:min-h-[550px] lg:min-w-[400px] lg:min-h-[400px] rounded-full flex justify-center items-center border-[3px] border-black animate-[wiggle_4s_ease-in-out_infinite] transform transistion'>
+                    <img src="/heropic.jpg" alt="pic" className='w-full h-[250px] lg:h-[550px] object-cover hover:scale-105 delay-0 duration-300' />
                 </div>
                 <div className='flex flex-col gap-10 justify-center items-center text-center lg:text-start lg:items-start'>
                     <h1 className='flex font-bold text-4xl sm:text-7xl lg:text-6xl text-stone-800'>
